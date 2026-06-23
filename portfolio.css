@@ -67,6 +67,13 @@ nav {
   font-family: var(--mono);
   font-size: 0.9rem;
   font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.nav-logo:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
 }
 
 .nav-links {
